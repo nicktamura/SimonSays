@@ -67,9 +67,9 @@ function checkAnswer(currentLevel) {
       $("body").removeClass("game-over");
     }, 200);
 
-    $("h1").text("GAME OVER, PRESS RESTART");
-    $("h2").text("Struggling? Check the rules again!")
-    $(".goButton").text("RESTART");
+    $("h1").text("FIN DE LA PARTIDA, PULSA 'VOLVER A EMPEZAR'");
+    $("h2").text("¿Atascado? ¡Revisa las normas otra vez!")
+    $(".goButton").text("VOLVER A EMPEZAR");
     $(".explainer").show();
 
     startOver();
