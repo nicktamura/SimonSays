@@ -32,7 +32,7 @@ $(".btn").click(function() {
 $(".goButton").click(function(event) {
 
   if (!started) {
-    $("h1").text("Level " + level);
+    $("h1").text("Nivel " + level);
     $(".explainer").hide();
 
     nextSequence();
